@@ -56,26 +56,26 @@ Each folder contains:
 ## 📸 Results (Screenshots)
 
 ### 🔹 Kogge-Stone Adder
-![Kogge Timing](kogge_stone/timing.png)
-![Kogge Power](kogge_stone/power.png)
+![Kogge Timing](kogge_stone/timing.PNG)
+![Kogge Power](kogge_stone/power.PNG)
 
 ---
 
 ### 🔹 Brent-Kung Adder
-![BK Timing](brent_kung/timing.png)
-![BK Power](brent_kung/power.png)
+![BK Timing](brent_kung/timing.PNG)
+![BK Power](brent_kung/power.PNG)
 
 ---
 
 ### 🔹 Carry Select Adder
-![CS Timing](carry_select_adder/timing.png)
-![CS Power](carry_select_adder/power.png)
+![CS Timing](carry_select_adder/timing.PNG)
+![CS Power](carry_select_adder/power.PNG)
 
 ---
 
 ### 🔹 Carry Lookahead Adder
-![CLA Timing](carry_lookahead_adder/timing.png)
-![CLA Power](carry_lookahead_adder/power.png)
+![CLA Timing](carry_lookahead_adder/timing.PNG)
+![CLA Power](carry_lookahead_adder/power.PNG)
 
 ---
 
