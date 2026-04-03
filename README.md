@@ -56,8 +56,8 @@ Each folder contains:
 ## 📸 Results (Screenshots)
 
 ### 🔹 Kogge-Stone Adder
-![Kogge Timing](kogge_stone/timing.PNG)
-![Kogge Power](kogge_stone/power.PNG)
+![Kogge Timing](kogge_stone/timing)
+![Kogge Power](kogge_stone/power)
 
 ---
 
