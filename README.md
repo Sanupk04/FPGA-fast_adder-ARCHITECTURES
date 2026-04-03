@@ -46,7 +46,7 @@ Each folder contains:
 
 | Adder               | WNS (ns) | Frequency | LUT | Power |
 |--------------------|---------|----------|-----|-------|
-| Kogge-Stone        | 0.143   | 200 MHz  | 67  | 0.073W |
+| Kogge-Stone        | 0.657   | 200 MHz  | 67  | 0.073W |
 | Brent-Kung         | 0.588   | 200 MHz  | 34  | 0.073W |
 | Carry Select       | 0.084   | 125 MHz  | 23  | 0.068W |
 | Carry Lookahead    | 0.735   | 111 MHz  | 16  | 0.067W |
