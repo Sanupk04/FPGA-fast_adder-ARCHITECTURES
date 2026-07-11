@@ -1,6 +1,6 @@
 # FPGA Implementation of Fast Adder Architectures
 
-## 📖 Overview
+##  Overview
 This project implements and compares multiple high-speed adder architectures using **Verilog HDL** in **Xilinx Vivado**.
 
 The goal is to analyze the trade-offs between:
@@ -8,25 +8,22 @@ The goal is to analyze the trade-offs between:
 - Area (LUT utilization)
 - Power consumption
 
----
 
-## 🔧 Tools & Technologies
+##  Tools & Technologies
 - Verilog HDL
 - Xilinx Vivado
 - FPGA (Artix-7 / xc7k70t)
 
----
 
-## 🚀 Implemented Adders
+##  Implemented Adders
 
 - Kogge-Stone Adder  
 - Brent-Kung Adder  
 - Carry Select Adder  
 - Carry Lookahead Adder  
 
----
 
-## 📂 Project Structure
+## Project Structure
 ├── kogge_stone/
 ├── brent_kung/
 ├── carry_select_adder/
@@ -40,9 +37,8 @@ Each folder contains:
 - Power report
 - Utilization report
 
----
 
-## 📊 Performance Comparison
+##  Performance Comparison
 
 | Adder               | WNS (ns) | Frequency | LUT | Power |
 |--------------------|---------|----------|-----|-------|
@@ -51,9 +47,8 @@ Each folder contains:
 | Carry Select       | 0.084   | 125 MHz  | 23  | 0.068W |
 | Carry Lookahead    | 0.735   | 111 MHz  | 16  | 0.067W |
 
----
 
-## 📈 Key Observations
+##  Key Observations
 
 - **Kogge-Stone Adder**
   - Fastest architecture
@@ -73,31 +68,28 @@ Each folder contains:
 
 ---
 
-## ⏱ Timing Analysis
+##  Timing Analysis
 
 - Timing evaluated using **Worst Negative Slack (WNS)**
 - Higher WNS → Better timing performance
 - Kogge-Stone achieved highest frequency
 
----
 
-## ⚡ Power Analysis
+##  Power Analysis
 
 - Power estimated using Vivado Power Report
 - Slight differences across architectures
 - Trade-off observed between speed and power
 
----
 
-## 🧪 Verification
+##  Verification
 
 - All adders verified using **testbenches**
 - Multiple input combinations tested
 - Functional correctness validated in simulation
 
----
 
-## 🎯 Key Learning
+## Key Learning
 
 - Understood trade-offs between:
   - Speed
@@ -108,9 +100,8 @@ Each folder contains:
   - Parallel Prefix Adders
   - Carry Lookahead Logic
 
----
 
-## 📌 Conclusion
+## Conclusion
 
 - **Kogge-Stone → Fastest**
 - **CLA → Lowest area**
@@ -119,9 +110,8 @@ Each folder contains:
 
 Different applications require different architectures.
 
----
 
-## 🔗 Future Scope
+##  Future Scope
 
 - Extend to 16-bit / 32-bit adders
 - Implement hybrid adder architectures
